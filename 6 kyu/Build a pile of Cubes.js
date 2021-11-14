@@ -12,5 +12,3 @@ function findNb(m) {
   }  
 }
 
-
-function sum_pairs(numArray, num){  var nums = numArray;  var sum = num;  var resultsArray = [];   for(var i = 0; i < nums.length; i++){     for(var j = 0; j < i; j++){        if(nums[i] + nums[j] == sum){           return [nums[j], nums[i]];        }      }   } }
