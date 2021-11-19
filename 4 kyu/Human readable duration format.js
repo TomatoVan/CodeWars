@@ -40,3 +40,4 @@ function formatDuration(seconds) {
 
     return yearsFun() + daysFun() + hoursFun() + minutesFun() + secondsFun();
 }
+console.log(formatDuration(53131));
